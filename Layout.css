@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav span{
+    color:white;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 176, 69);
+    padding-left: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    border-left: 2px solid black;
+    color: #fff;
+    padding: 20px;
+}
+
+.image{
+    background-image: url(high.jpeg);
+    height: 300px;
+    background-size: cover;
+
+}
+.orange{
+    background-color: rgb(233, 176, 69);
+}
+.threeBox{
+    padding: 1rem;
+    display: flex;
+    /* margin: 30px; */
+}
+.threeBox p{
+    padding: 2rem 1.5rem;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.twoBox{
+    margin: 1rem;
+    display: flex;
+}
+.twoBox ul{
+    list-style: none;
+    text-align: center;
+    border-right: 2px solid ;
+    /* padding: 20px; */
+}
+.twoBox ul li{
+    width: 130px;
+    margin: 1em;
+    background-color: #fff;
+}
+.twoBox p{
+    margin: 1rem;
+    padding-left: 1em;
+}
+
