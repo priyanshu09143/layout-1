@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav span{
     color:white;
@@ -15,13 +16,13 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    padding: 20px;
+    padding: 20px 10px;
 }
 nav ul a{
     text-decoration: none;
     border-left: 2px solid black;
     color: #fff;
-    padding: 20px;
+    padding: 20px 32px;
 }
 
 .image{
@@ -31,12 +32,14 @@ nav ul a{
 
 }
 .orange{
+    position: relative;
     background-color: rgb(233, 176, 69);
 }
 .threeBox{
+    top: -75px;
+    position: absolute;
     padding: 1rem;
     display: flex;
-    /* margin: 30px; */
 }
 .threeBox p{
     padding: 2rem 1.5rem;
@@ -45,14 +48,15 @@ nav ul a{
     border-radius: 10px;
 }
 .twoBox{
-    margin: 1rem;
+
+    padding: 10rem 1rem 1rem 1rem;
     display: flex;
 }
 .twoBox ul{
     list-style: none;
     text-align: center;
     border-right: 2px solid ;
-    /* padding: 20px; */
+
 }
 .twoBox ul li{
     width: 130px;
@@ -64,3 +68,52 @@ nav ul a{
     padding-left: 1em;
 }
 
+.drop{
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    background-color: #873636;
+    top: 37px;
+    display: none;
+    width: 156px;
+}
+a:hover{
+    background-color: #d52e2e;
+}
+nav ul li{
+    position: relative;
+}
+.drop li a{
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+li:hover ul{
+    display: flex;
+}
+#size{
+    width: 98px;
+}
+.wid a{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+#size2{
+    width: 115px;
+    
+}
+.wid2{
+    width: 100%;
+    padding: 0 0;
+
+}
+.wid2 a{
+    padding: 20px 20px;
+}
+#size3{
+    width: 115px;
+}
+.wid3{
+    width: 100%;
+}
